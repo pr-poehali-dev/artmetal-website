@@ -250,7 +250,7 @@ export default function Index() {
               <div className="mt-8 pt-8 border-t border-border space-y-4">
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Icon name="Phone" size={20} className="text-primary" />
-                  <span>+7 (___) ___-__-__</span>
+                  <span>+7 (925) 455-33-53</span>
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Icon name="Mail" size={20} className="text-primary" />
