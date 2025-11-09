@@ -258,7 +258,7 @@ export default function Index() {
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Icon name="MapPin" size={20} className="text-primary" />
-                  <span>г. Москва, ул. Промышленная, д. 1</span>
+                  <span>МО, Наро-фоминский р-он, д. Ястребово, ул. Березовая д.56</span>
                 </div>
               </div>
             </CardContent>
