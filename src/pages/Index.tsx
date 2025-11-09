@@ -137,7 +137,7 @@ export default function Index() {
 
       <section id="portfolio" className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-heading text-center mb-12">Портфолио работ</h2>
+          <h2 className="text-4xl font-heading text-center mb-12 font-medium">Портфолио работ</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {portfolio.map((item, index) => (
               <div 
