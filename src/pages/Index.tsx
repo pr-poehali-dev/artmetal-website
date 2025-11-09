@@ -95,7 +95,17 @@ export default function Index() {
         </div>
       </header>
 
-      <section className="pt-32 pb-20 px-4 relative overflow-hidden">
+      <section className="pt-24 pb-12 px-4">
+        <div className="container mx-auto">
+          <img 
+            src="https://cdn.poehali.dev/files/e7a39575-e43e-4721-9a33-21c69a725779.jpg" 
+            alt="Примеры наших металлоконструкций" 
+            className="w-full rounded-lg shadow-lg"
+          />
+        </div>
+      </section>
+
+      <section className="pb-20 px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary/10 to-transparent"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-3xl animate-fade-in">
@@ -132,16 +142,6 @@ export default function Index() {
               </Card>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="py-12 px-4 bg-muted/30">
-        <div className="container mx-auto">
-          <img 
-            src="https://cdn.poehali.dev/files/e7a39575-e43e-4721-9a33-21c69a725779.jpg" 
-            alt="Примеры наших металлоконструкций" 
-            className="w-full rounded-lg shadow-lg"
-          />
         </div>
       </section>
 
