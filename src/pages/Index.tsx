@@ -126,7 +126,7 @@ export default function Index() {
                   <div className="mb-4 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                     <Icon name={service.icon} className="text-primary" size={24} />
                   </div>
-                  <h3 className="text-xl font-heading mb-2">{service.title}</h3>
+                  <h3 className="font-heading mb-2 font-medium text-2xl">{service.title}</h3>
                   <p className="text-muted-foreground">{service.description}</p>
                 </CardContent>
               </Card>
