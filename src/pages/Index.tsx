@@ -122,29 +122,6 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="services" className="py-20 px-4 bg-card">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-heading text-center mb-12 font-medium">Наши услуги</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service, index) => (
-              <Card 
-                key={index} 
-                className="bg-background border-border hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <CardContent className="p-6">
-                  <div className="mb-4 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <Icon name={service.icon} className="text-primary" size={24} />
-                  </div>
-                  <h3 className="font-heading mb-2 font-medium text-2xl">{service.title}</h3>
-                  <p className="text-muted-foreground">{service.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section id="portfolio" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-heading text-center mb-12 font-medium">Портфолио работ</h2>
@@ -167,6 +144,29 @@ export default function Index() {
                   </div>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="services" className="py-20 px-4 bg-card">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-heading text-center mb-12 font-medium">Наши услуги</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {services.map((service, index) => (
+              <Card 
+                key={index} 
+                className="bg-background border-border hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 animate-fade-in"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <CardContent className="p-6">
+                  <div className="mb-4 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <Icon name={service.icon} className="text-primary" size={24} />
+                  </div>
+                  <h3 className="font-heading mb-2 font-medium text-2xl">{service.title}</h3>
+                  <p className="text-muted-foreground">{service.description}</p>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>
