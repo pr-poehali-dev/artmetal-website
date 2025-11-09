@@ -80,7 +80,7 @@ export default function Index() {
                 alt="АРТ МЕТАЛЛ" 
                 className="h-16 w-16 object-contain"
               />
-              <div>
+              <div className="text-center">
                 <h1 className="text-2xl font-heading text-primary">АРТ МЕТАЛЛ</h1>
                 <p className="text-sm text-muted-foreground">Металлоконструкции</p>
               </div>
