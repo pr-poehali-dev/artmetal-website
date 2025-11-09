@@ -122,6 +122,38 @@ export default function Index() {
         </div>
       </section>
 
+      <section id="about" className="py-20 px-4 bg-card">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-4xl font-heading text-center mb-8">О компании</h2>
+          <div className="space-y-6 text-lg">
+            <p className="text-muted-foreground leading-relaxed">
+              <strong className="text-foreground">ООО "АРТ МЕТАЛЛ"</strong> — профессиональная компания по изготовлению металлоконструкций и выполнению сварочных работ любой сложности.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Мы специализируемся на создании ворот, заборов, калиток, мангальных и костровых зон, а также дизайнерской мебели в стиле лофт. Каждый проект выполняется с учётом индивидуальных пожеланий заказчика.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
+              <div className="text-center">
+                <div className="text-4xl font-heading text-secondary mb-2">15+</div>
+                <div className="text-sm text-muted-foreground">лет опыта</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-heading text-secondary mb-2">500+</div>
+                <div className="text-sm text-muted-foreground">проектов</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-heading text-secondary mb-2">100%</div>
+                <div className="text-sm text-muted-foreground">качество</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-heading text-secondary mb-2">24/7</div>
+                <div className="text-sm text-muted-foreground">поддержка</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="portfolio" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-heading text-center mb-12 font-medium">Портфолио работ</h2>
@@ -168,38 +200,6 @@ export default function Index() {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="about" className="py-20 px-4 bg-card">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-heading text-center mb-8">О компании</h2>
-          <div className="space-y-6 text-lg">
-            <p className="text-muted-foreground leading-relaxed">
-              <strong className="text-foreground">ООО "АРТ МЕТАЛЛ"</strong> — профессиональная компания по изготовлению металлоконструкций и выполнению сварочных работ любой сложности.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Мы специализируемся на создании ворот, заборов, калиток, мангальных и костровых зон, а также дизайнерской мебели в стиле лофт. Каждый проект выполняется с учётом индивидуальных пожеланий заказчика.
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
-              <div className="text-center">
-                <div className="text-4xl font-heading text-secondary mb-2">15+</div>
-                <div className="text-sm text-muted-foreground">лет опыта</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-heading text-secondary mb-2">500+</div>
-                <div className="text-sm text-muted-foreground">проектов</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-heading text-secondary mb-2">100%</div>
-                <div className="text-sm text-muted-foreground">качество</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-heading text-secondary mb-2">24/7</div>
-                <div className="text-sm text-muted-foreground">поддержка</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
