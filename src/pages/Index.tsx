@@ -109,7 +109,7 @@ export default function Index() {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/10 to-transparent"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-3xl animate-fade-in">
-            <h2 className="text-5xl md:text-7xl font-heading mb-6 text-primary text-center font-light">
+            <h2 className="text-5xl md:text-7xl font-heading mb-6 text-primary font-light text-left">
               ИЗГОТОВЛЕНИЕ МЕТАЛЛОКОНСТРУКЦИЙ
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
