@@ -73,7 +73,7 @@ export default function Index() {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:justify-between">
             <div className="flex items-center gap-4">
               <img 
                 src="https://cdn.poehali.dev/files/00114c76-9fc2-45e4-96c1-ce4398df9188.png" 
@@ -85,7 +85,7 @@ export default function Index() {
                 <p className="text-sm text-muted-foreground">Металлоконструкции</p>
               </div>
             </div>
-            <nav className="hidden md:flex gap-6">
+            <nav className="flex gap-6">
               <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
               <a href="#portfolio" className="hover:text-primary transition-colors">Портфолио</a>
               <a href="#about" className="hover:text-primary transition-colors">О нас</a>
