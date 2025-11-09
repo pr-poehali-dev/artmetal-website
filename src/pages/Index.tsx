@@ -135,6 +135,16 @@ export default function Index() {
         </div>
       </section>
 
+      <section className="py-12 px-4 bg-muted/30">
+        <div className="container mx-auto">
+          <img 
+            src="https://cdn.poehali.dev/files/e7a39575-e43e-4721-9a33-21c69a725779.jpg" 
+            alt="Примеры наших металлоконструкций" 
+            className="w-full rounded-lg shadow-lg"
+          />
+        </div>
+      </section>
+
       <section id="portfolio" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-heading text-center mb-12 font-medium">Портфолио работ</h2>
